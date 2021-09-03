@@ -1,4 +1,9 @@
+# License #
+
+This project is licensed under the GNU license. See [LICENSE](https://github.com/jbji/ZaunChat/blob/main/LICENSE)
+
 # ZaunChat
+
 祖安聊天宝, 北理工2019级2021年小学期Qt 5.15.2项目
 
 Zhidan Liu, Chunliang Li, Yuhang Lai, Yumeng Bu, Ruiqiao Qiu, Ran Liu
