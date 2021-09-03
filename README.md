@@ -14,11 +14,11 @@ Zhidan Liu, Chunliang Li, Yuhang Lai, Yumeng Bu, Ruiqiao Qiu, Ran Liu
 >
 > ### 			——《祖安聊天宝》开发小组
 
-![logo](./img/logo.png)
+<img src="./img/logo.png" alt="logo" style="zoom:50%;" />
 
 # 软件架构(MVC)
 
-![架构](./img/架构.png)
+<img src="./img/架构.png" alt="架构" style="zoom:50%;" />
 
 # 实现功能
 
@@ -38,3 +38,70 @@ Zhidan Liu, Chunliang Li, Yuhang Lai, Yumeng Bu, Ruiqiao Qiu, Ran Liu
 
 + **用户界面友好**, **聊天体验优秀**
 
+# UI展示
+
+## 注册登录界面
+
+### 注册界面
+
+<img src="./img/reg.png" alt="reg" style="zoom:33%;" />
+
+### 登陆界面
+
+<img src="./img/login1.png" alt="login1" style="zoom:33%;" />
+
+## 添加好友
+
+<img src="./img/addfriend1.png" alt="addfriend1" style="zoom:48%;" />
+
+<img src="./img/addfriend2.png" alt="addfriend1" style="zoom:48%;" />
+
+<img src="./img/addfriend3.png" alt="addfriend1" style="zoom:48%;" />
+
+<img src="./img/addfriend4.png" alt="addfriend1" style="zoom:48%;" />
+
+## 聊天界面
+
+### 好友聊天
+
+<img src="./img/chat1.png" alt="addfriend1" style="zoom:48%;" />
+
+### 收到其他界面好友聊天消息
+
+<img src="./img/chat2.png" alt="addfriend1" style="zoom:48%;" />
+
+## 添加群聊
+
+### 创建群聊
+
+<img src="./img/group1.png" alt="addfriend1" style="zoom:48%;" />
+
+<img src="./img/group2.png" alt="addfriend1" style="zoom:48%;" />
+
+
+
+### 添加群聊
+
+<img src="./img/group4.png" alt="addfriend1" style="zoom:48%;" />
+
+<img src="./img/group3.png" alt="addfriend1" style="zoom:48%;" />
+
+## 群聊界面
+
+<img src="./img/group5.png" alt="addfriend1" style="zoom:48%;" />
+
+## 收发图片
+
+<img src="./img/img1.png" alt="addfriend1" style="zoom:48%;" />
+
+## 截屏功能
+
+<img src="./img/screenshot2.png" alt="addfriend1" style="zoom:48%;" />
+
+## 收发文件
+
+<img src="./img/file1.png" alt="addfriend1" style="zoom:48%;" />
+
+## 开发者模式
+
+<img src="./img/devmode.png" alt="addfriend1" style="zoom:48%;" />
