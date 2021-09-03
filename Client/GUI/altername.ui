@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>alterName</class>
+ <widget class="QWidget" name="alterName">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>440</width>
+    <height>340</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#widget{
+	background-color: rgb(255, 255, 255);
+}
+QPushButton#submitButton{
+border:none;
+}
+QPushButton#cancelButton{
+border-style:none;
+text-decoration:underline;
+}</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>400</width>
+     <height>300</height>
+    </rect>
+   </property>
+   <widget class="QPushButton" name="submitButton">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>160</y>
+      <width>112</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="resourse.qrc">
+      <normaloff>:/img/button.png</normaloff>:/img/button.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>100</width>
+      <height>80</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cancelButton">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>260</y>
+      <width>71</width>
+      <height>34</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>取消</string>
+    </property>
+   </widget>
+   <widget class="QTextEdit" name="newName">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>90</y>
+      <width>291</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;微软雅黑&quot;;
+background-color: rgb(227, 227, 227);</string>
+    </property>
+    <property name="placeholderText">
+     <string>请输入您的新昵称</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resourse.qrc"/>
+ </resources>
+ <connections/>
+</ui>

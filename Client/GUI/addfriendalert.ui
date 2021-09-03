@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>addfriendalert</class>
+ <widget class="QWidget" name="addfriendalert">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>441</width>
+    <height>253</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QToolButton#toolButton{
+color:rgb(0,0,0);
+border-style:none;
+}
+QToolButton#toolButton::hover{
+color:rgb(255,255,255);
+background-color: rgba(255, 56, 56, 150)
+}
+QWidget#widget{
+background-color: rgb(255, 255, 255);
+}</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>401</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true"/>
+   </property>
+   <widget class="QTextEdit" name="textEdit">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>50</y>
+      <width>311</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;微软雅黑&quot;;
+border:none;</string>
+    </property>
+    <property name="readOnly">
+     <bool>true</bool>
+    </property>
+    <property name="placeholderText">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="agree">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>110</y>
+      <width>111</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="resourse.qrc">
+      <normaloff>:/img/button4.png</normaloff>:/img/button4.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>250</width>
+      <height>80</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="toolButton">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>0</y>
+      <width>47</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="resourse.qrc">
+      <normaloff>:/img/no.png</normaloff>:/img/no.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="refuse">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>110</y>
+      <width>111</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="resourse.qrc">
+      <normaloff>:/img/button5.png</normaloff>:/img/button5.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>250</width>
+      <height>80</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resourse.qrc"/>
+ </resources>
+ <connections/>
+</ui>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>createGroup</class>
+ <widget class="QWidget" name="createGroup">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>440</width>
+    <height>240</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#widget{
+border:none;
+background-color: rgb(255, 255, 255);
+}
+QToolButton#closeButton{
+color:rgb(0,0,0);
+border-style:none;
+}
+QToolButton#closeButton::hover{
+color:rgb(255,255,255);
+background-color: rgba(255, 56, 56, 150);
+}
+QPushButton#createButton{
+color:rgb(171, 89, 10);
+border:3px solid rgb(220, 141, 13);
+border-radius:12px;
+background-color: rgb(255, 233, 178);
+}
+QLineEdit#account{
+border:none;
+border-bottom:1px solid rgb(0, 0, 0);
+border-bottom:1px solid rgb(150, 150, 150);
+}
+</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>400</width>
+     <height>200</height>
+    </rect>
+   </property>
+   <property name="minimumSize">
+    <size>
+     <width>400</width>
+     <height>200</height>
+    </size>
+   </property>
+   <property name="maximumSize">
+    <size>
+     <width>400</width>
+     <height>200</height>
+    </size>
+   </property>
+   <widget class="QLabel" name="accountLable">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>50</y>
+      <width>101</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>微软雅黑</family>
+      <pointsize>12</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 12pt &quot;微软雅黑&quot;;</string>
+    </property>
+    <property name="text">
+     <string>群聊名称</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="account">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>50</y>
+      <width>200</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>SimSun</family>
+      <pointsize>10</pointsize>
+     </font>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="closeButton">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>0</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset resource="resourse.qrc">
+      <normaloff>:/img/no.png</normaloff>:/img/no.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="createButton">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>130</y>
+      <width>111</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:none;</string>
+    </property>
+    <property name="text">
+     <string>...</string>
+    </property>
+    <property name="icon">
+     <iconset resource="resourse.qrc">
+      <normaloff>:/img/button3.png</normaloff>:/img/button3.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>300</width>
+      <height>200</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resourse.qrc"/>
+ </resources>
+ <connections/>
+</ui>

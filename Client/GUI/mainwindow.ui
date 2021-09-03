@@ -1,0 +1,473 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QWidget" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>840</width>
+    <height>640</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>840</width>
+    <height>640</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>840</width>
+    <height>640</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#widget{
+background-color: rgb(255, 255, 255);
+border-radius:15px;
+}
+QToolButton#closeButton{
+color:rgb(0,0,0);
+border-style:none;
+}
+QToolButton#closeButton::hover{
+color:rgb(255,255,255);
+background-color: rgba(255, 56, 56, 150);
+border-top-right-radius:15px;
+
+}
+QToolButton#closeButton2{
+color:rgb(0,0,0);
+border-style:none;
+}
+QToolButton#closeButton2::hover{
+color:rgb(255,255,255);
+background-color: rgba(255, 56, 56, 150);
+}
+QToolButton#minimizeButton{
+border-style:none;
+color:rgb(0,0,0);
+}
+QToolButton#minimizeButton::hover{
+border-style:none;
+color:rgb(0,0,0);
+background-color: rgba(203, 203, 203, 150);
+}
+QToolButton#settingButton{
+border-style:none;
+}
+QToolButton#settingButton::hover{
+border-style:none;
+background-color: rgba(203, 203, 203, 150);
+}
+QToolButton{
+border-style:none;
+}
+QToolButton#imgbtn{
+border:2px groove white;border-radius:10px;padding:2px 4px;
+}
+QFrame#list{
+background-color:rgb(254,208,142);
+border:none;
+border-top:1px solid rgb(219,132,52);
+border-bottom-right-radius:15px;
+border-bottom-left-radius:15px;
+}
+
+QFrame#frame{
+border:none;
+border-top:1px solid rgb(219,132,52);
+border-bottom:1px solid rgb(219,132,52);
+	background-color: rgb(255, 253, 248);
+}
+QFrame#dialog{
+background-image: url(:/img/dialogbg.png);
+border:none;
+border-top:1px solid rgb(219,132,52);
+border-left:1px solid rgb(219,132,52);
+border-bottom-right-radius:15px;
+
+}
+QFrame#frame1{
+background-color: rgb(255, 240, 211);
+
+border-bottom-left-radius:15px;
+}
+QFrame#frame2{
+background-color: rgb(255, 240, 211);
+
+border-bottom-left-radius:15px;
+}
+QFrame#frame3{
+background-color: rgb(255, 240, 211);
+
+border-bottom-left-radius:15px;
+}
+QToolButton#friendadding::hover{
+border:1px solid rgb(219,132,52);
+border-radius:10px;
+background-color: rgb(255, 240, 211);
+}</string>
+  </property>
+  <widget class="QWidget" name="widget" native="true">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>20</y>
+     <width>800</width>
+     <height>600</height>
+    </rect>
+   </property>
+   <widget class="QFrame" name="dialog">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>40</y>
+      <width>550</width>
+      <height>560</height>
+     </rect>
+    </property>
+    <property name="contextMenuPolicy">
+     <enum>Qt::NoContextMenu</enum>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QToolButton" name="closeButton2">
+     <property name="geometry">
+      <rect>
+       <x>510</x>
+       <y>0</y>
+       <width>40</width>
+       <height>40</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>×</string>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>50</width>
+       <height>50</height>
+      </size>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="list">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>40</y>
+      <width>250</width>
+      <height>560</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QFrame" name="frame1">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>170</y>
+       <width>250</width>
+       <height>390</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame2">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>170</y>
+       <width>250</width>
+       <height>390</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame3">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>170</y>
+       <width>250</width>
+       <height>390</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+    </widget>
+    <widget class="QToolButton" name="imgbtn">
+     <property name="geometry">
+      <rect>
+       <x>20</x>
+       <y>20</y>
+       <width>80</width>
+       <height>80</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>img</string>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>80</width>
+       <height>80</height>
+      </size>
+     </property>
+    </widget>
+    <widget class="QLabel" name="username">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>30</y>
+       <width>121</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>UserName</string>
+     </property>
+    </widget>
+    <widget class="QLabel" name="userid">
+     <property name="geometry">
+      <rect>
+       <x>120</x>
+       <y>60</y>
+       <width>121</width>
+       <height>30</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <pointsize>10</pointsize>
+      </font>
+     </property>
+     <property name="text">
+      <string>id</string>
+     </property>
+    </widget>
+    <widget class="QFrame" name="frame">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>120</y>
+       <width>251</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QToolButton" name="friendlist">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>1</y>
+        <width>50</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="icon">
+       <iconset resource="resourse.qrc">
+        <normaloff>:/img/friends.png</normaloff>:/img/friends.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>38</width>
+        <height>38</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="chatlist">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>1</y>
+        <width>50</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="icon">
+       <iconset resource="resourse.qrc">
+        <normaloff>:/img/chatting.png</normaloff>:/img/chatting.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>40</width>
+        <height>40</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="friendrequest">
+      <property name="geometry">
+       <rect>
+        <x>130</x>
+        <y>1</y>
+        <width>50</width>
+        <height>50</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="icon">
+       <iconset resource="resourse.qrc">
+        <normaloff>:/img/groupchat.png</normaloff>:/img/groupchat.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>40</width>
+        <height>40</height>
+       </size>
+      </property>
+     </widget>
+     <widget class="QToolButton" name="friendadding">
+      <property name="geometry">
+       <rect>
+        <x>201</x>
+        <y>1</y>
+        <width>49</width>
+        <height>49</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>...</string>
+      </property>
+      <property name="icon">
+       <iconset resource="resourse.qrc">
+        <normaloff>:/img/addFriends.png</normaloff>:/img/addFriends.png</iconset>
+      </property>
+      <property name="iconSize">
+       <size>
+        <width>35</width>
+        <height>35</height>
+       </size>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QToolButton" name="closeButton">
+    <property name="geometry">
+     <rect>
+      <x>760</x>
+      <y>0</y>
+      <width>40</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>×</string>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>50</width>
+      <height>50</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="minimizeButton">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>0</y>
+      <width>40</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>-</string>
+    </property>
+   </widget>
+   <widget class="QToolButton" name="settingButton">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>0</y>
+      <width>40</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>*</string>
+    </property>
+    <property name="icon">
+     <iconset resource="resourse.qrc">
+      <normaloff>:/img/settings.png</normaloff>:/img/settings.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>30</width>
+      <height>30</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>5</x>
+      <y>0</y>
+      <width>40</width>
+      <height>40</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="resourse.qrc">:/img/logo.ico</pixmap>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources>
+  <include location="resourse.qrc"/>
+ </resources>
+ <connections/>
+</ui>

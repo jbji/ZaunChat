@@ -1,0 +1,30 @@
+<RCC>
+    <qresource prefix="/">
+        <file>img/1.png</file>
+        <file>img/close.png</file>
+        <file>img/login.png</file>
+        <file>img/loginbtn.png</file>
+        <file>img/loginbtnhover.png</file>
+        <file>img/logintext.PNG</file>
+        <file>img/registertext.PNG</file>
+        <file>img/settings.png</file>
+        <file>img/dialogbg.png</file>
+        <file>img/logo.ico</file>
+        <file>img/addFriends.png</file>
+        <file>img/chatting.png</file>
+        <file>img/friends.png</file>
+        <file>img/defaultimg.png</file>
+        <file>img/button.png</file>
+        <file>img/button2.png</file>
+        <file>img/no.png</file>
+        <file>img/search.png</file>
+        <file>img/button3.png</file>
+        <file>img/groupchat.png</file>
+        <file>img/button4.png</file>
+        <file>img/button5.png</file>
+        <file>img/colorChangebtn.png</file>
+        <file>img/sendFilebtn.png</file>
+        <file>img/sendImgbtn.png</file>
+        <file>img/scShotbtn.png</file>
+    </qresource>
+</RCC>
