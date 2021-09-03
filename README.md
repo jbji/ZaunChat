@@ -1,6 +1,6 @@
 # License #
 
-This project is licensed under the GNU license. See [LICENSE](https://github.com/jbji/ZaunChat/blob/main/LICENSE)
+This project is licensed under the GNU license. See [LICENSE](./LICENSE)
 
 # ZaunChat
 
