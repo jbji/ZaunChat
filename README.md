@@ -1,6 +1,6 @@
 # License #
 
-This project is licensed under the GNU license. See [LICENSE](./LICENSE)
+This project is licensed under the GPL license. See [LICENSE](./LICENSE)
 
 # ZaunChat
 
